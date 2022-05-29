@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <header class="header">
+                <div class="container">
+                    <span>Welcome Back!</span>
+                    <h1>Calendar Plan</h1>
+                    <div class="menuToggle">
+                        <div>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <section class="todayBox" id="todayBox">
+                <span class="breadcrumb">Today</span>
+                <h3 class="dateTitle">May 30, 2022</h3>
+                <div class="plusIcon">
+                    <i class="ion ion-ios-add">+</i>
+                </div>
+            </section>
+
+            <section class="upcomingEvents">
+                <div class="container">
+                    <h3>Upcoming Events</h3>
+                    <div class="eventsWrapper">
+                        <div class="event">
+                            <i class="ion ion-ios-flame hot">1</i>
+                            <h4 class="eventTime">11:00 am</h4>
+                            <span class="eventTimeLeft">in 30 minutes</span>
+                            <p class="eventDescription">
+                                Monday briefing with the doctor.
+                            </p>
+                        </div>
+                        <div class="event">
+                            <i class="ion ion-ios-flame done">2</i>
+                            <h4 class="eventTime">12:00 pm</h4>
+                            <span class="eventTimeLeft">in 1 hour</span>
+                            <p class="eventDescription">
+                                Meeting with consultant!
+                            </p>
+                        </div>
+                    </div>
+                    <button class="eventButton">
+                        <span class="eventButtonTitle">Add Event</span>
+
+                        <span class="eventButtonIcon">
+                            <i class="fa-solid fa-star"></i>
+                        </span>
+                    </button>
+                </div>
+            </section>
+        </div>
+    </body>
+</html>
